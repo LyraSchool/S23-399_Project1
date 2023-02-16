@@ -112,7 +112,7 @@ public class BallController : MonoBehaviour
         Debug.Log("Trigger entered!");
         score++;
         
-        scoreText.text = $"AAAScore: {score}";
+        scoreText.text = $"Score: {score}";
         
         
         
