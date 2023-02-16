@@ -53,18 +53,23 @@ public class BallController : MonoBehaviour
         
         if (countdown)
         {
-            // Timer Stuff
+            HandleQuitCountdown();
+        }
+    }
 
-            if (timer < 3)
-            {
-                timer += Time.deltaTime;
-                Debug.Log(timer);
-            }
-            else
-            {
-                //Application.Quit();
-                UnityEditor.EditorApplication.isPlaying = false;
-            }
+    private void HandleQuitCountdown()
+    {
+        // Timer Stuff
+
+        if (timer < 3)
+        {
+            timer += Time.deltaTime;
+            Debug.Log(timer);
+        }
+        else
+        {
+            //Application.Quit();
+            UnityEditor.EditorApplication.isPlaying = false;
         }
     }
 
