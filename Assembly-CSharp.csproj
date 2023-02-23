@@ -324,6 +324,15 @@
      <Reference Include="ReportGeneratorMerged">
      <HintPath>/home/blyra/UnityProjects/Test/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
      </Reference>
+     <Reference Include="Mono.Posix">
+     <HintPath>/home/blyra/UnityProjects/Test/Library/PackageCache/com.spoiledcat.git@1.0.12/Mono.Posix/Mono.Posix.dll</HintPath>
+     </Reference>
+     <Reference Include="sfw.net">
+     <HintPath>/home/blyra/UnityProjects/Test/Library/PackageCache/com.spoiledcat.git@1.0.12/sfw/sfw.net.dll</HintPath>
+     </Reference>
+     <Reference Include="SpoiledCat.Git.Localization">
+     <HintPath>/home/blyra/UnityProjects/Test/Library/PackageCache/com.spoiledcat.git@1.0.12/Localization/SpoiledCat.Git.Localization.dll</HintPath>
+     </Reference>
      <Reference Include="netstandard">
      <HintPath>/home/blyra/Unity/Hub/Editor/2021.3.18f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
      </Reference>
@@ -767,6 +776,12 @@
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
      <HintPath>/home/blyra/UnityProjects/Test/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Editor.Tasks">
+     <HintPath>/home/blyra/UnityProjects/Test/Library/ScriptAssemblies/Unity.Editor.Tasks.dll</HintPath>
+     </Reference>
+     <Reference Include="com.spoiledcat.git">
+     <HintPath>/home/blyra/UnityProjects/Test/Library/ScriptAssemblies/com.spoiledcat.git.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
